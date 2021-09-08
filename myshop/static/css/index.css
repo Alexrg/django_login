@@ -1,0 +1,36 @@
+@font-face{
+  font-family: prestage;
+  src: url('prestage/Prestage_Regular_Demo.otf');
+  font-weight: regular;
+}
+@font-face{
+  font-family: prestage-italica;
+  src: url('prestage/Prestage Italic Demo.otf');
+  font-weight: italic;
+}
+
+@font-face{
+  font-family: akrobat;
+  src: url('akrobat/Akrobat-Light.otf');
+  font-weight: regular;
+}
+
+.navbar{
+  background: #D9E2E3;
+  font-family: akrobat;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+li:hover {
+  background-color: #003643;
+  color: white;
+}
