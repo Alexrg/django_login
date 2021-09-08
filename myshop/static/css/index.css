@@ -20,9 +20,15 @@
   font-family: akrobat;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul {
   list-style-type: none;
   padding: 10px;
+  color: #000000;
 }
 
 li {
